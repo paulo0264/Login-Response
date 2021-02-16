@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,400&family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <form action="">
+
+        <fieldset class=grupo>
+            
+            <img class="mb-4" src="img/user.svg" alt="" width="72" height="72">
+            <h1 class="title">Faça Login</h1>
+
+            <div class="campo">
+                <label for="inputEmail">Endereço de Email:</label>
+                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Seu Email" required>
+                <span class="erro"></span>
+            </div>
+        
+            <div class="campo">
+                <label for="inputPassword">Senha:</label>
+                <input type="password" name="senha" id="inputPassword" class="form-control" placeholder="Senha" required>
+                <span class="erro"></span>
+            </div>
+
+            <div class="checkbox">
+                <label for="">
+                    <input type="checkbox" value="lembrar">
+                    "Lembrar minha Senha"
+                </label>
+            </div>
+
+            <button class="botao" type="submit" onclick="validar();">Logar</button>
+            
+        </fieldset>
+        <p>@ 2020 - 2021</p>
+  
+    </form>
+
+     <script src="js/javascript.js"></script> 
+</body>
+</html>

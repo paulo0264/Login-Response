@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.erro{
+    color: red;
+}
+body{
+    background-image: url('../img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 1400px;
+    width: 100%;
+    font-family: Montserrat;
+    
+}
+fieldset{
+    border: 0;
+}
+form{
+    margin-top: 70px;
+}
+.grupo{
+    width: 10%;
+    padding: 70px 80px;
+    margin: auto;
+    background-color: rgba(172, 172, 164, 0.425);
+    border-radius: 10px;
+}
+.mb-4{
+    display: block;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    padding: 10px;
+}
+.campo{
+    padding-top: 18px;
+}
+.campo label{
+    font-size: 15px;
+}
+.campo input{
+    margin-top: 5px;
+}
+.form-control[type="email"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+    
+}
+.form-control[type="password"]{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0,0.2);
+}
+.form-control[placeholder]{
+    padding-left: 10px;
+}
+.checkbox{
+    padding-top: 15px;
+    font-size: 13px;
+}
+.botao{
+    font-size: 1.2em;
+    background: #6495ED;
+    border: 0;
+    color: #ffffff;
+    width: 110px;
+    height: 40px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-top: 20px;
+}
+.botao:hover{
+    background: #87CEFF;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
+.botao{
+    cursor:pointer;
+}
+p{
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3px;
+}
